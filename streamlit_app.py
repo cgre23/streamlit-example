@@ -9,7 +9,7 @@ import streamlit as st
 
 Edit `/streamlit_app.py` to customize this app to your heart's desire :heart:
 
-If you have any questions, checkout our [documentation](https://docs.streamlit.io) and [community
+If you have any questions, check out our [documentation](https://docs.streamlit.io) and [community
 forums](https://discuss.streamlit.io).
 
 In the meantime, below is an example of what you can do with just a few lines of code:
@@ -34,5 +34,5 @@ with st.echo(code_location='below'):
         data.append(Point(x, y))
 
     st.altair_chart(alt.Chart(pd.DataFrame(data), height=500, width=500)
-        .mark_circle(color='#0068c9', opacity=0.5)
-        .encode(x='x:Q', y='y:Q'))
+                    .mark_circle(color='#0068c9', opacity=0.5)
+                    .encode(x='x:Q', y='y:Q'))
